@@ -1,0 +1,3 @@
+C:/Users/aldem/CLionProjects/kacis_karakterleri/cmake-build-debug/CMakeFiles/kacis_karakterleri.dir
+C:/Users/aldem/CLionProjects/kacis_karakterleri/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/aldem/CLionProjects/kacis_karakterleri/cmake-build-debug/CMakeFiles/rebuild_cache.dir
