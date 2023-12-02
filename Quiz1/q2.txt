@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+int main() {
+    int num_0, num_1, num_2, degree;
+    int num_new0, num_new1, num_new2, num_buffer;
+    printf("Enter an integer : ");
+    scanf("%d", &degree);
+    num_0 = 0;
+    num_1 = 1;
+    num_2 = 2;
+    num_new1 = 1;
+
+    if(degree==1){
+        printf("1.: %d\n", num_0);
+    }
+    if(degree==2){
+        printf("1.: %d\n", num_0);
+        printf("2.: %d\n", num_1);
+    }
+    if(degree==3){
+        printf("1.: %d\n", num_0);
+        printf("2.: %d\n", num_1);
+        printf("3.: %d\n", num_2);
+    }
+
+    if(degree>3){
+        int k = 0;
+        for (int i = 3; i < degree ; ++i) {
+            // num_new0 = (num_0 + num_1 + num_2) ;
+            num_buffer = num_new1;
+            num_new1 = (num_0 + num_2) ;
+            num_new2 = (num_2 - num_1) ;
+            num_0 = num_2;
+            num_1 = num_new1;
+            num_2 = num_new2;
+
+        }
+
+        printf("1st element of pair: %d\n",num_new1);
+        printf("2nd element of pair: %d\n",num_new2);
+    }
+
+
+    return 0;
+}
