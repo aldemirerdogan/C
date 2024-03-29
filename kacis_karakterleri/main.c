@@ -1,5 +1,5 @@
 ﻿#include "stdio.h" // kutuphane tanımı
-#include "math.h"
+#include "math.h" // frfjrfjkhe
 
 void kare (int d1); // prototip tanımandı...
 
