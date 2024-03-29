@@ -1,7 +1,7 @@
 ﻿#include "stdio.h" // kutuphane tanımı
 #include "math.h"
 
-void kare (int d1); // prototip tanımandı
+void kare (int d1); // prototip tanımandı...
 
 int main(void)
 {   int sayi, sonuc;  // değişkenlerin tanımlanması
